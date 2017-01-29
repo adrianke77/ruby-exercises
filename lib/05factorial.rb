@@ -11,22 +11,17 @@
 #
 
 def factorialrecurse(number)
-  if number == 1
-    return 1
-  else
-    return number * factorialrecurse(number-1)
-  end
+  number == 1 ? 1 : number * factorialrecurse(number - 1)
 end
 
 puts factorialrecurse(5)
 
 def factorialloop(number)
   output = 1
-  for x in (1..5) do
+  (1..number).to_a.each do |x|
     output *= x
   end
   output
 end
-
 
 puts factorialloop(5)

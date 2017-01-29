@@ -10,10 +10,10 @@
 # > Hello there
 # > Hello there
 
-def p_times(string,number)
-  number.times do |i|
+def p_times(string, number)
+  number.times do
     puts string
   end
 end
 
-p_times('Hello there',3)
+p_times('Hello there', 3)

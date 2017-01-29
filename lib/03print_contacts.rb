@@ -19,7 +19,7 @@ contacts = {
 }
 
 def print_contacts(data)
-  data.each do |key,phone_number|
+  data.each do |key, phone_number|
     puts "#{key} has a phone number of #{phone_number}"
   end
 end
