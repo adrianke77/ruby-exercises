@@ -9,3 +9,11 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+def p_times(string,number)
+  number.times do |i|
+    puts string
+  end
+end
+
+p_times('Hello there',3)
